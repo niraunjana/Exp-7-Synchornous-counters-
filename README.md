@@ -45,16 +45,25 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 
 4-bit Count Down Counter
-### Procedure
-/* write all the steps invloved */
+### Procedure:
+1. Open a new project using Quartus'
+2. Declare the inputs and outputs inside module program.
+3. Set the reset value using register.
+4. Use commands like begin and end to stimulate the counter.
+5. For Up counter increment the count and for Down counter decrement the count.
+6. End the program.
+
+
 
 
 
 ### PROGRAM 
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: NIRAUNJANA GAYATHRI G R
+RegisterNumber:  22008369
+
+
 */
 
 
@@ -62,7 +71,10 @@ RegisterNumber:
 
 
 
-### RTL LOGIC UP COUNTER AND DOWN COUNTER  
+### RTL LOGIC UP COUNTER AND DOWN COUNTER  :
+
+![image](https://user-images.githubusercontent.com/119395610/213844949-9456779a-65f7-47db-a9d6-1157182c45b0.png)
+![image](https://user-images.githubusercontent.com/119395610/213844955-3ae4be09-8063-4e50-aff3-324e502127f7.png)
 
 
 
@@ -71,18 +83,24 @@ RegisterNumber:
 
 
 
+### TIMING DIGRAMS FOR COUNTER  :
 
-### TIMING DIGRAMS FOR COUNTER  
-
-
-
-
-
-### TRUTH TABLE 
+![image](https://user-images.githubusercontent.com/119395610/213844985-4c8a3d8e-84cc-487e-847a-c2fc6e11bd84.png)
+![image](https://user-images.githubusercontent.com/119395610/213844994-26f852a1-284c-406f-b57c-b26bf126b839.png)
 
 
 
 
 
+### TRUTH TABLE :
 
-### RESULTS 
+![image](https://user-images.githubusercontent.com/119395610/213845005-340bb667-12f4-4016-9118-30cf7bb3feec.png)
+![image](https://user-images.githubusercontent.com/119395610/213845014-fb9b16d8-566d-4ef8-b98e-5d488e41944a.png)
+
+
+
+
+
+
+### RESULTS :
+Hence the Four bit Up counter and Down counter is implemented successfully and its functionality is validated.
